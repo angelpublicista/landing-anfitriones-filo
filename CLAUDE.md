@@ -20,6 +20,6 @@ Landing page estática en español de FILO (software para experiencias gastronó
 - **`app.js`** (vanilla JS, sin dependencias) hace cuatro cosas: pestañas accesibles (flechas/Home/End), diálogo `<dialog id="image-dialog">` para ampliar capturas, FAQ tipo acordeón exclusivo (`.accordion details`) y animaciones de entrada con `IntersectionObserver` sobre `.reveal` (desactivadas con `prefers-reduced-motion`).
 - **Responsive**: breakpoints principales en 1100px y 760px (más reglas específicas del hero en 1000px/1600px); el bloque de 760px contiene casi todos los ajustes móviles, incluido el visor ampliado.
 
-## Pendiente conocido
+## Notas
 
-Los botones de registro solo navegan entre `#precio` y `#empezar`; hay que reemplazarlos por la URL real de registro cuando exista. Las tarjetas de demostración y fotos son ilustrativas.
+Los botones de registro (`.btn` "Empezar con FILO" / "Crear mi cuenta") enlazan a `https://app.tenemosfilo.com/`. Las tarjetas de demostración y fotos son ilustrativas.
